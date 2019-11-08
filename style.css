@@ -6,13 +6,13 @@ body {
     color: #fff;
     text-align: center;
     font-size: 0.8rem;
-    /* background: url('images/bg.jpg') fixed; */
     background-size: cover;
 }
 
 .header {
   padding: 170px 30px 80px;
   height: 100vh;
+  min-height: 400px;
   background-color: rgba(25, 25, 120, 0.9);
 }
 
@@ -55,6 +55,7 @@ body {
 
 .about {
   height: 100vh;
+  min-height: 500px;
   background-color: #ffffff;
   padding: 80px 30px;
   color: #333;  
@@ -79,6 +80,7 @@ body {
 
 .works {
   height: 100vh;
+  min-height: 650px;
   background-color: #383634;
   padding: 80px 0 10px;
 }
@@ -91,15 +93,18 @@ body {
 .work-box {
   background-color: rgba(100, 100, 100, 0.3);
   border: 1px solid #333;
-  margin:15px auto;
+  margin:15px 20px;
+  width: 33.3%;
 }
 
 .work-image {
-  display: block;
-  width:300px;
-  height:150px;
+  width:100%;
+  display:flex;
+  align-items: center;
 }
-
+.work-box > image{
+  display:block;
+  }
 .work-description {
   margin: 20px 0;
 }
@@ -111,26 +116,28 @@ body {
 }
 
 .outputs {
-    height: 100vh;
-    background-color: rgba(25, 25, 120, 0.9);
-    padding: 80px 0 10px;
-  }
-  
-  .outputs-wrapper {
-    display: flex;
-    margin: 60px 130px 0;
-  }
-  
-  .output-box {
-    background-color: rgba(100, 100, 100, 0.3);
-    border: 1px solid #333;
-    margin:15px auto;
+  height: 100vh;
+  min-height: 700px;
+  background-color: rgba(25, 25, 120, 0.9);
+  padding: 80px 0 10px;
+}
+
+.outputs-wrapper {
+  display: flex;
+  margin: 60px 130px 0;
+}
+
+.output-box {
+  background-color: rgba(100, 100, 100, 0.3);
+  border: 1px solid #333;
+  margin:15px 20px;
+  width: 33.3%;
   }
   
   .output-image {
-    display: block;
-    width:300px;
-    height:150px;
+    width:100%;
+    display:flex;
+    align-items: center;
   }
   
   .output-description {
