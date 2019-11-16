@@ -55,20 +55,22 @@ body {
 
 .about {
   height: 100vh;
-  min-height: 500px;
+  min-height: 700px;
   background-color: #ffffff;
   padding: 80px 30px;
   color: #333;  
 }
 
 .about-text {
-    width: 600px;
-    margin: 30px auto;
-    line-height: 2.5;
-    text-align: left;
-    font-size:16px;
+  width: 100%;
 }
-
+.about-text__profile,.about-text__learning{
+  width: 70%;
+  margin: 30px auto;
+  line-height: 1.5;
+  text-align: left;
+  font-size:16px;
+}
 .heading {
     display: inline-block;
     margin: 30px 0 15px;
